@@ -181,3 +181,65 @@ Both ideas were combined into the final design: a cute yet futuristic speaker wi
 
 ## Repository Structure
 
+.
+├── README.md
+├── cad/
+│ ├── fusion360/
+│ └── assemblies/
+├── stl/
+│ ├── front_panel/
+│ ├── back_panel_flip_top/
+│ ├── magnet_couplers/
+│ ├── button_extensions/
+│ ├── speaker_holders/
+│ └── feet_and_decors/
+├── electronics/
+│ ├── schematic/
+│ └── bom.csv
+├── docs/
+│ ├── images/
+│ ├── daily-tracker.md
+│ └── evaluation.md
+└── licenses/
+└── LICENSE
+
+
+---
+
+## Build & Print Instructions
+
+1. **Print**
+   - Material: ABS/PETG  
+   - Layer height: 0.2 mm  
+   - Infill: 25%  
+   - 3–4 perimeters  
+   - Iron top surfaces if needed  
+
+2. **Assemble**
+   - Press magnets into couplers  
+   - Mount speakers, electromagnet, ferrofluid bottle  
+   - Connect wiring and solder  
+   - Attach LEDs and test illumination  
+   - Assemble front/back using magnetic connection  
+
+3. **Test**
+   - Audio balance  
+   - Button functionality  
+   - LED brightness and uniformity  
+
+---
+
+## Future Work
+
+- RGB addressable LEDs  
+- Stronger materials (carbon-fiber-filled filament)  
+- Better acoustic dampening  
+- Improved electromagnet power efficiency  
+- Instruction manual and print guide
+
+---
+
+## License
+
+Licensed under MIT License.  
+© 2025 Oscar Chen & Sam Zhu — *Making sound you can see.* 🎧
